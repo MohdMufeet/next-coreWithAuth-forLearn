@@ -63,7 +63,7 @@ const router = useRouter();
       <form action={handleSubmit} className="flex flex-col justify-center">
         {!islogin && <input className="px-[30px] py-[10px] mt-[20px] mb-[15px] border border-[#979797] rounded" type="text" name="name" placeholder="Your Name" />}
         <input className="px-[30px] py-[10px] my-[15px] border border-[#979797] rounded" type="email" name="email" placeholder="Your Email" />
-        <input className="px-[30px] py-[10px] my-[15px] border border-[#979797] rounded" type="text" name="password" placeholder="Your Password" />
+        <input className="px-[30px] py-[10px] my-[15px] border border-[#979797] rounded" type="password" name="password" placeholder="Your Password" />
         <button className="bg-[#007498] px-[30px] py-[10px] my-[15px] hover:bg-black hover:duration-200 hover:delay-100 hover:ease-in-out text-white" type="submit">{islogin ? "Login" : "Sign Up"}</button>
         
  
